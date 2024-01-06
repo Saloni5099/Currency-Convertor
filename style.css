@@ -1,0 +1,125 @@
+body{
+    background-color: rgb(192, 165, 156);
+}
+nav ul  {
+    font-size: large;
+    align-items: center;
+    display:flex;
+}
+nav ul li{
+   list-style:none;
+   margin:0 23px;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+nav li a:hover{
+    text-decoration: none;
+    color:rgb(221, 119, 153);
+}
+nav{
+    display: flex;
+    background-color: antiquewhite;
+    padding: 23px;
+}
+@media (max-width: 600px) {
+    body { 
+        background-color: blue;
+     }
+     nav{
+         flex-direction: column;
+         font-size: 14px;
+     }
+     nav ul li{
+        margin:5px 13px;
+     }
+     nav ul{
+        justify-content: centre;
+     }
+     .container{
+        max-width: 95vw;
+     }
+     .container form input[type='number'],
+     select,
+     label{
+        width:80vw;
+     }
+  }
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: 0 23px;
+    font-weight: bold;
+}
+h2{
+    margin: 23px;
+    color: rgb(31, 30, 30);
+}
+.container{
+    min-height: 35vh;
+    text-align: center;
+    
+}
+.container form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 23px;
+    align-items: center;
+}
+.container input {
+    font-size:large;
+    margin: 15px;
+    width: 38%;
+    height:35px;
+}
+.container select{
+    width:38%;
+    margin: 15px;
+    height: 35px;
+}
+.btn{
+    height:30px;
+    width:75px;
+    background-color: rgb(43, 99, 253);
+    color: white;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 0);
+    cursor: pointer;
+    margin-right: 500px;
+}
+.container button :hover{
+    color:rgba(171, 7, 166, 0.683);
+}
+h4{
+  margin-right: 440px;
+  font-weight: bold;
+}
+.output{
+    margin:20px;
+    margin-left: 100px;
+    display:none;
+}
+.output table th{
+   padding:23px;
+}
+table{
+    width:100vw;
+    text-align: center;
+    Border: 2px solid;
+    padding:5px;
+    font-size: 18px;
+}
+h3{
+  padding-bottom:  23px;
+}
+footer{
+    text-align: center;
+}

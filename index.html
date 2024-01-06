@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Currency Convertor</title>
+    <link rel = "stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav>
+        <div class="logo"> My Currency Convertor</div>
+        <ul>
+            <li><a href="/home">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/Contact Us">Contact Us</a></li>
+            
+        </ul>
+     </nav>
+     <div class="container">
+        <h2>Choose a currency to convert</h2>
+       <form action="/action.php" method = "get">
+       
+        
+        <h4>Choose a currency:</h4>
+        <select name="currency" >
+            <option value = "INR">Indian Rupee</option>
+            <option value = "USD">US Dollar</option>
+            <option value = "EURO">Euro</option>
+            <option value = "GBP">British Pound</option>
+        </select>
+        <h4>Choose a quantity:</h4>
+        <input type="number" name="quantity">
+        <button class="btn" type="submit">Submit</button>
+       </form>
+     </div>
+     <div class="output">
+        <h3>converted values in different currencies :</h3>
+        <table>
+            
+            <thead>
+                <tr>
+                    <th>Currency</th>
+                    <th>Currency code</th>
+                    <th>Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- <tr>
+                    <td>Data1</td>
+                    <td>Data2</td>
+                    <td>Data3</td>
+                </tr>   -->
+            </tbody>
+            <!-- <tfoot>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>data</td>
+                    <td>data</td>
+                </tr>
+            </tfoot> -->
+            
+        </table>
+     </div>
+     <footer>
+        Copyright &copy; All rights reserved 
+     </footer>
+     <script src = "script.js"></script>
+</body>
+</html>
