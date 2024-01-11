@@ -26,7 +26,7 @@ nav{
 }
 @media (max-width: 600px) {
     body { 
-        background-color: blue;
+        background-color: rgb(198, 169, 130);
      }
      nav{
          flex-direction: column;
